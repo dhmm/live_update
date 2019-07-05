@@ -28,6 +28,7 @@ function load() {
         }                        
       });
 
+      //Remove not existing users
       userIds.forEach(function(existingId) {
         if(processedIds.includes(existingId) === false) {
             $('#usersTableData #user_'+existingId).remove();
