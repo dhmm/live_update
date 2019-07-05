@@ -1,5 +1,7 @@
-###How to install
+###How is it ?
+This is a very simple tutorial with php+jquery+ajax which updating the html table data from mysql database without refreshing the page.
 
+###How to install
 1) Create a db in your mysql server
 2) Change the DB settings from settings/db.php
 3) Run the install.php
